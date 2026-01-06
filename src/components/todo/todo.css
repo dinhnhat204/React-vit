@@ -27,6 +27,7 @@
    border-radius: 3px;
    background-color: #3D9DEE;
    border:none;
+   cursor: pointer;
 }
 .todo-image img{
     width:60px;
@@ -40,4 +41,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.todo-data{
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  border:0.5px solid black;
+  text-align: left;
+}
+.todo-data .todo-item{
+  display:flex;
+  justify-content:space-between;
 }
